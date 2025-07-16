@@ -1,7 +1,7 @@
 # ignore all files with .tif in 
 ndvi_data/
-ndvi_beni_mellal/
 chirps_data/
 chirps_tif's/
+ndvi_beni_mellal/
 chirps_beni_mellal/
 

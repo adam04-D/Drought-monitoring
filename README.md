@@ -76,31 +76,7 @@ This project focuses on **detecting, characterizing, and predicting drought even
 - **Visualizations**: Time series plots, seasonal boxplots, correlation scatter plots, drought heatmaps, and event timelines.
 - **Models**: Trained Random Forest models for drought classification and NDVI prediction.
 - **Dashboard**: Interactive Plotly dashboard for real-time drought monitoring.
-
----
-
-## 📁 Project Structure
-
-```
-drought_monitoring_bmk/
-│
-├── data/
-│   ├── chirps_data/              # Raw CHIRPS precipitation data
-│   ├── chirps_beni_mellal/       # Clipped SPI rasters
-│   ├── ndvi_data/                # Raw NDVI data
-│   ├── ndvi_beni_mellal/         # Clipped NDVI rasters
-│   ├── mean_ndvi_bmk.csv         # Monthly NDVI means
-│   ├── mean_spi_bmk.csv          # Monthly SPI means
-│   ├── drought_events_bmk.csv     # Detected drought events
-│   └── beni_mellal_khenifra.geojson  # Region shapefile
-├── scripts/
-│   └── drought_analysis.py        # Main analysis script
-├── outputs/
-│   ├── carte_de_sechresse.png     # Drought heatmap
-│   └── dashboard.html             # Interactive dashboard
-├── README.md                     # Project documentation
-└── requirements.txt              # Python dependencies
-```
+    
 
 ---
 
